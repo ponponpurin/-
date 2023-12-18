@@ -33,12 +33,3 @@ pbl内の-というディレクトリに移動して、
 以下のコードを入力して実行してください。
 
 `streamlit run main.py `
-
-## 追加インストール
-pip install streamlit
-
-pip install openai
-
-pip install langchain
-
-pip install load_dotenv
