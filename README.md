@@ -52,3 +52,10 @@ API_KEY=
 以下のコードを入力して実行してください。
 
 `streamlit run main.py `
+
+## 評価指標について
+**BLUE**
+janomeをトークナイザーに用い、nltkのsentence_blueを用いて実装した。
+
+**SARI**
+janomeをトークナイザーを使い、fuggingfaceのevaluateライブラリで実装した。
