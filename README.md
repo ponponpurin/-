@@ -35,7 +35,8 @@ macの場合は展開したフォルダに右クリックし、「フォルダ�
 ### APIキーの設定
 ---
 以下の＝につながる形でコマンドプロンプトでAPIキーを入力して実行してください  
-` set OPENAI_API_KEY=`
+` set OPENAI_API_KEY=` (windows用)
+` export OPENAI_API_KEY=` (mac用)
 
 ### 依存関係のインストール
 ---
