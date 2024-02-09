@@ -50,6 +50,10 @@ macの場合は展開したフォルダに右クリックし、「フォルダ�
 
 `streamlit run main.py `
 
+**文字数エラーが出た場合**  
+main.pyの53行目の#を消して、以下のようにしてください。
+st.session_state.messages = []
+
 ## 評価指標について
 **BLUE**
 janomeをトークナイザーに用い、nltkのsentence_blueを用いて実装した。
