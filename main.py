@@ -48,6 +48,7 @@ with container:
         submit_button = st.form_submit_button(label='Send', type='primary')
 
     if submit_button and user_input:
+        #st.session_state.messages= []
         message = user_input
         # メッセージリストに新しいメッセージを追加
         st.session_state.messages.append(
