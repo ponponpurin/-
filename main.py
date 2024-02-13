@@ -42,6 +42,7 @@ with container:
 
 with container:
     col1, col2, col3 = st.columns([8, 40, 8])
+    submit_button = None
 
     with col2.form(key='my_form', clear_on_submit=False):
         user_input = st.text_area(label='Message: ', key='input', height=100)
