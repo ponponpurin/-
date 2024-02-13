@@ -52,7 +52,8 @@ macの場合は展開したフォルダに右クリックし、「フォルダ�
 
 **文字数エラーが出た場合**  
 main.pyの51行目の#を消して、以下のようにしてください。
-st.session_state.messages = []
+st.session_state.messages = []  
+APIの都合上デバックできませんでした。
 
 ## 評価指標について
 **BLUE**
