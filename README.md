@@ -51,7 +51,7 @@ macの場合は展開したフォルダに右クリックし、「フォルダ�
 `streamlit run main.py `
 
 **文字数エラーが出た場合**  
-main.pyの51行目の#を消して、以下のようにしてください。
+main.pyの52行目の#を消して、以下のようにしてください。
 st.session_state.messages = []  
 APIの都合上デバックできませんでした。
 
